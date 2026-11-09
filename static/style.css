@@ -1,0 +1,265 @@
+body {
+    background: linear-gradient(135deg,
+            #eef4ff,
+            #f8f9ff);
+
+    min-height: 100vh;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+
+.main-title {
+    font-weight: 700;
+    color: #1d3557;
+}
+
+
+.subtitle {
+    color: #6c757d;
+    font-size: 18px;
+}
+
+
+.dashboard-card {
+
+    border: none;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.08);
+
+    background: white;
+}
+
+
+.section-title {
+
+    font-weight: 600;
+
+    color: #1d3557;
+
+    margin-bottom: 15px;
+}
+
+
+.form-label {
+
+    font-weight: 600;
+
+    color: #34495e;
+}
+
+
+.form-control,
+.form-select {
+
+    border-radius: 10px;
+
+    padding: 12px;
+
+    border: 1px solid #dce2ea;
+}
+
+
+.form-control:focus,
+.form-select:focus {
+
+    border-color: #457b9d;
+
+    box-shadow:
+        0 0 0 0.2rem rgba(69,
+            123,
+            157,
+            0.15);
+}
+
+
+.predict-btn {
+
+    background: #1d3557;
+
+    color: white;
+
+    border: none;
+
+    padding: 13px;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+
+.predict-btn:hover {
+
+    background: #457b9d;
+
+    color: white;
+
+    transform: translateY(-2px);
+}
+
+
+.result-card {
+
+    min-height: 600px;
+}
+
+
+.status-icon {
+
+    width: 90px;
+
+    height: 90px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin: 30px auto 20px;
+
+    font-size: 40px;
+}
+
+
+.success-icon {
+
+    background: #d1e7dd;
+
+    color: #198754;
+}
+
+
+.danger-icon {
+
+    background: #f8d7da;
+
+    color: #dc3545;
+}
+
+
+.status-text {
+
+    font-weight: 700;
+
+    margin-bottom: 25px;
+}
+
+
+.success {
+
+    color: #198754;
+}
+
+
+.danger {
+
+    color: #dc3545;
+}
+
+
+.probability-box {
+
+    background: #f5f7fa;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    margin: 20px 0;
+}
+
+
+.probability-box p {
+
+    margin-bottom: 5px;
+
+    color: #6c757d;
+}
+
+
+.probability-box h1 {
+
+    font-weight: 700;
+
+    color: #1d3557;
+}
+
+
+.recommendation {
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    background: #f8f9fa;
+}
+
+
+.recommendation p {
+
+    margin-top: 8px;
+
+    margin-bottom: 0;
+
+    font-weight: 600;
+}
+
+
+.machine-summary {
+
+    text-align: left;
+
+    margin-top: 20px;
+}
+
+
+.machine-summary p {
+
+    margin-bottom: 7px;
+
+    color: #6c757d;
+}
+
+
+.machine-summary strong {
+
+    color: #212529;
+}
+
+
+.empty-result {
+
+    padding-top: 80px;
+
+    color: #6c757d;
+}
+
+
+.empty-icon {
+
+    font-size: 70px;
+
+    margin-bottom: 20px;
+}
+
+
+footer {
+
+    color: #6c757d;
+
+    font-size: 14px;
+}
